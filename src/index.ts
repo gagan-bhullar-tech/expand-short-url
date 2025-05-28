@@ -38,7 +38,7 @@ const fireRequest = (url: string, options: IExpandShortUrlOptions): Promise<stri
     });
 };
 
-export const expand = (url: string, options: IExpandShortUrlOptions): Promise<string> => {
+export const expand = (url: string, options?: Partial<IExpandShortUrlOptions>): Promise<string> => {
     const finalOptions: IExpandShortUrlOptions = {
         ...defaultOptions,
         ...options,
