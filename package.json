@@ -1,17 +1,18 @@
 {
   "name": "expand-short-url",
   "version": "1.0.0",
-  "description": "This library is designed to expand short URLs",
+  "description": "This library is designed to expand short URLs for Node.JS",  
+  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-   "files": [
+  "files": [
     "dist"
   ],
   "scripts": {
-    "test": "jest",
-    "build": "tsup",
-    "clean": "rm -rf dist"
+    "test:unit": "jest --coverage --verbose",
+    "build": "tsc",
+    "build:test": "npm run build:test"
   },
   "repository": {
     "type": "git",
