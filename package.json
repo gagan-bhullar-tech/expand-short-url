@@ -1,11 +1,11 @@
 {
   "name": "expand-short-url",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This library is designed to expand short URLs for Node.JS",
   "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "types": "./dist/cjs/index.d.ts",
   "files": [
     "dist"
   ],
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test:unit": "jest --coverage --verbose",
-    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
     "test": "jest --coverage --verbose"
   },
   "repository": {
