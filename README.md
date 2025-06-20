@@ -24,7 +24,7 @@ console.log(expandedURL);
 You can pass options to the `expand` function to customize its behavior. Also, you can pass any options supported by http.request or https.request module.
 
 1. `timeout`: The maximum time to wait for the expansion to complete (default: 5000 ms).
-2. `maxRedirects`: The maximum number of redirects to follow (default: 3).
+2. `maxRedirects`: The maximum number of redirects to follow (default: 3). 
 
 ## Example
 
