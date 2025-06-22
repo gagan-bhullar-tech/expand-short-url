@@ -1,6 +1,6 @@
 # Expand Short URLs
 
-[![Node.js Package](https://github.com/gagan-bhullar-tech/expand-short-url/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/gagan-bhullar-tech/expand-short-url/actions/workflows/npm-publish.yml)
+[![Pipeline](https://github.com/gagan-bhullar-tech/expand-short-url/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/gagan-bhullar-tech/expand-short-url/actions/workflows/npm-publish.yml)
 
 This library is designed to expand short URLs. This does not have any external dependencies and is lightweight.
 
